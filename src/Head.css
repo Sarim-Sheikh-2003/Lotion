@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    border-bottom: 1px solid lightgray;
+}
+
+.text {
+    font: Arial;
+}
+
+.heading {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheading {
+    font: Arial;
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+}
+
+.head-buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pad {
+    flex: 1;
+}
+
+.button {
+    width: 75px;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+  
+.button-hover:hover {
+    color: white;
+    background-color: rgb(80, 80, 80);
+}

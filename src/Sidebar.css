@@ -1,0 +1,50 @@
+.sidebar {
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid lightgray;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.sidebar-body:empty::before {
+    content: attr(data-placeholder);
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-note {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-note:hover {
+    background: rgb(80, 80, 80);
+    color: white;
+}
+
+.sidebar-note.active-note,
+.sidebar-note.active-note small {
+  background: rgb(80, 80, 80);
+  color: white;
+}
+
+.button1 {
+    width: 75px;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+  
+.button1-hover:hover {
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
